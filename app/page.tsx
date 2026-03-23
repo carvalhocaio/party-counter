@@ -168,19 +168,6 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4 p-4 rounded-xl bg-surface-container">
-                  <span className="material-symbols-outlined text-tertiary">
-                    restaurant
-                  </span>
-                  <div>
-                    <h4 className="font-bold font-label text-on-surface">
-                      Almoço a partir das 13h
-                    </h4>
-                    <p className="text-sm text-on-surface-variant">
-                      Capricha no apetite que a comida tá garantida.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
