@@ -19,16 +19,17 @@ function getTimeLeft() {
 }
 
 export function Countdown() {
-  const [time, setTime] = useState(getTimeLeft);
+  const [time, setTime] = useState<ReturnType<typeof getTimeLeft> | null>(null);
 
   useEffect(() => {
+    setTime(getTimeLeft());
     const interval = setInterval(() => setTime(getTimeLeft()), 1000);
     return () => clearInterval(interval);
   }, []);
 
   const cards = [
     {
-      value: time.dias,
+      value: time?.dias ?? 0,
       label: "DIAS",
       bg: "bg-surface-container-low",
       text: "text-primary",
@@ -36,7 +37,7 @@ export function Countdown() {
       rotate: "-rotate-1",
     },
     {
-      value: time.horas,
+      value: time?.horas ?? 0,
       label: "HORAS",
       bg: "bg-primary-container",
       text: "text-on-primary-container",
@@ -44,7 +45,7 @@ export function Countdown() {
       rotate: "rotate-2",
     },
     {
-      value: time.minutos,
+      value: time?.minutos ?? 0,
       label: "MINUTOS",
       bg: "bg-surface-container-highest",
       text: "text-primary",
@@ -52,7 +53,7 @@ export function Countdown() {
       rotate: "-rotate-2",
     },
     {
-      value: time.segundos,
+      value: time?.segundos ?? 0,
       label: "SEGUNDOS",
       bg: "bg-secondary-container",
       text: "text-on-secondary-container",

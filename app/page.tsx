@@ -148,23 +148,10 @@ export default function Home() {
                   </span>
                   <div>
                     <h4 className="font-bold font-label text-on-surface">
-                      Atração Ao Vivo
+                      Atrações Ao Vivo
                     </h4>
                     <p className="text-sm text-on-surface-variant">
                       Pagode e sertanejo pra não deixar ninguém parado.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4 p-4 rounded-xl bg-surface-container">
-                  <span className="material-symbols-outlined text-primary">
-                    sports_bar
-                  </span>
-                  <div>
-                    <h4 className="font-bold font-label text-on-surface">
-                      Open Bar
-                    </h4>
-                    <p className="text-sm text-on-surface-variant">
-                      Cerveja gelada liberada.
                     </p>
                   </div>
                 </div>
@@ -189,10 +176,10 @@ export default function Home() {
               <div className="p-12 flex flex-col justify-center">
                 <div className="mb-8">
                   <span className="inline-block bg-secondary-container text-on-secondary-container px-3 py-1 rounded-sm text-xs font-bold font-label mb-4">
-                    ESPAÇO ROCHA
+                    LOCALIZAÇÃO
                   </span>
                   <h3 className="font-headline font-bold text-3xl mb-2 text-on-surface">
-                    Espaço Rocha
+                    Espaço de Eventos Rocha
                   </h3>
                   <p className="text-on-surface-variant">
                     Rua Brasília - Novo Horizonte, Cuiabá - MT, 78058-695
