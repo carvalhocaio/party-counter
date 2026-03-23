@@ -1,6 +1,64 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-epilogue);
+  --font-body: var(--font-be-vietnam-pro);
+  --font-label: var(--font-plus-jakarta-sans);
+
+  /* Background & Surface */
+  --color-background: #fef6e7;
+  --color-on-background: #1e1b13;
+  --color-surface: #fef6e7;
+  --color-surface-bright: #fff8ee;
+  --color-surface-dim: #e0d8c8;
+  --color-on-surface: #322e25;
+  --color-on-surface-variant: #4d4737;
+  --color-surface-variant: #e5dcc9;
+
+  /* Surface Container Scale */
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f0e0;
+  --color-surface-container: #f0e7d6;
+  --color-surface-container-high: #ebe2d1;
+  --color-surface-container-highest: #e5dcc9;
+
+  /* Primary (Sun Yellow / Amber) */
+  --color-primary: #755700;
+  --color-primary-dim: #664b00;
+  --color-primary-container: #fdc003;
+  --color-primary-fixed: #ffe08a;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #3d2e00;
+
+  /* Secondary (Deep Green) */
+  --color-secondary: #266829;
+  --color-secondary-container: #a8f5a0;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #003907;
+
+  /* Outline */
+  --color-outline: #7d7667;
+  --color-outline-variant: #b3ac9f;
+
+  /* Error */
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #410002;
+
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Beer-Tinted Shadows */
+  --shadow-sm: 0 2px 8px rgba(50, 46, 37, 0.06);
+  --shadow-md: 0 4px 16px rgba(50, 46, 37, 0.08);
+  --shadow-lg: 0 8px 24px rgba(50, 46, 37, 0.08);
+  --shadow-xl: 0 12px 32px rgba(50, 46, 37, 0.10);
 }
