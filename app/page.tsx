@@ -134,7 +134,7 @@ export default function Home() {
 
             <div className="w-full md:w-1/2">
               <h2 className="font-headline font-bold text-4xl text-on-surface mb-6">
-                Um Sábado de <span className="text-tertiary">Puro Samba</span>
+                Um Sábado de <span className="text-tertiary">Muita Música</span>
               </h2>
               <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
                 Prepare o coração e o gogó! Vou comemorar meu aniversário do
@@ -152,6 +152,32 @@ export default function Home() {
                     </h4>
                     <p className="text-sm text-on-surface-variant">
                       Pagode e sertanejo pra não deixar ninguém parado.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4 p-4 rounded-xl bg-surface-container">
+                  <span className="material-symbols-outlined text-primary">
+                    pool
+                  </span>
+                  <div>
+                    <h4 className="font-bold font-label text-on-surface">
+                      Piscina
+                    </h4>
+                    <p className="text-sm text-on-surface-variant">
+                      Leve sua roupa de banho para se refrescar na piscina.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4 p-4 rounded-xl bg-surface-container">
+                  <span className="material-symbols-outlined text-tertiary">
+                    restaurant
+                  </span>
+                  <div>
+                    <h4 className="font-bold font-label text-on-surface">
+                      Almoço a partir das 13h
+                    </h4>
+                    <p className="text-sm text-on-surface-variant">
+                      Capricha no apetite que a comida tá garantida.
                     </p>
                   </div>
                 </div>
