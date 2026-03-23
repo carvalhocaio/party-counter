@@ -40,6 +40,16 @@ export default function Home() {
             {/* Countdown Bento Grid */}
             <Countdown />
           </div>
+
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce z-10">
+            <span className="text-xs font-label font-semibold text-outline-variant tracking-widest uppercase">
+              Rolar
+            </span>
+            <span className="material-symbols-outlined text-outline-variant">
+              expand_more
+            </span>
+          </div>
         </section>
 
         {/* Line-up Section */}
