@@ -5,49 +5,76 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-epilogue);
+  --font-headline: var(--font-epilogue);
   --font-body: var(--font-be-vietnam-pro);
   --font-label: var(--font-plus-jakarta-sans);
 
   /* Background & Surface */
   --color-background: #fef6e7;
-  --color-on-background: #1e1b13;
+  --color-on-background: #322e25;
   --color-surface: #fef6e7;
-  --color-surface-bright: #fff8ee;
-  --color-surface-dim: #e0d8c8;
+  --color-surface-bright: #fef6e7;
+  --color-surface-dim: #dcd4c0;
   --color-on-surface: #322e25;
-  --color-on-surface-variant: #4d4737;
+  --color-on-surface-variant: #605b50;
   --color-surface-variant: #e5dcc9;
+  --color-surface-tint: #755700;
 
   /* Surface Container Scale */
   --color-surface-container-lowest: #ffffff;
   --color-surface-container-low: #f8f0e0;
   --color-surface-container: #f0e7d6;
-  --color-surface-container-high: #ebe2d1;
+  --color-surface-container-high: #eae2d0;
   --color-surface-container-highest: #e5dcc9;
 
   /* Primary (Sun Yellow / Amber) */
   --color-primary: #755700;
   --color-primary-dim: #664b00;
   --color-primary-container: #fdc003;
-  --color-primary-fixed: #ffe08a;
-  --color-on-primary: #ffffff;
-  --color-on-primary-container: #3d2e00;
+  --color-primary-fixed: #fdc003;
+  --color-primary-fixed-dim: #ecb200;
+  --color-on-primary: #fff1db;
+  --color-on-primary-container: #553e00;
+  --color-on-primary-fixed: #3d2b00;
+  --color-on-primary-fixed-variant: #604700;
 
   /* Secondary (Deep Green) */
   --color-secondary: #266829;
-  --color-secondary-container: #a8f5a0;
-  --color-on-secondary: #ffffff;
-  --color-on-secondary-container: #003907;
+  --color-secondary-dim: #185c1e;
+  --color-secondary-container: #acf4a4;
+  --color-secondary-fixed: #acf4a4;
+  --color-secondary-fixed-dim: #9fe697;
+  --color-on-secondary: #d1ffc8;
+  --color-on-secondary-container: #1b5e20;
+  --color-on-secondary-fixed: #004b0f;
+  --color-on-secondary-fixed-variant: #266829;
+
+  /* Tertiary (Warm Red/Orange) */
+  --color-tertiary: #ac2c00;
+  --color-tertiary-dim: #972500;
+  --color-tertiary-container: #ff9476;
+  --color-tertiary-fixed: #ff9476;
+  --color-tertiary-fixed-dim: #ff7d58;
+  --color-on-tertiary: #ffefec;
+  --color-on-tertiary-container: #601400;
+  --color-on-tertiary-fixed: #350700;
+  --color-on-tertiary-fixed-variant: #701900;
 
   /* Outline */
-  --color-outline: #7d7667;
+  --color-outline: #7c766a;
   --color-outline-variant: #b3ac9f;
 
   /* Error */
-  --color-error: #ba1a1a;
-  --color-error-container: #ffdad6;
-  --color-on-error: #ffffff;
-  --color-on-error-container: #410002;
+  --color-error: #b02500;
+  --color-error-dim: #b92902;
+  --color-error-container: #f95630;
+  --color-on-error: #ffefec;
+  --color-on-error-container: #520c00;
+
+  /* Inverse */
+  --color-inverse-surface: #110e06;
+  --color-inverse-on-surface: #a29c8f;
+  --color-inverse-primary: #fdc003;
 
   /* Border Radius */
   --radius-sm: 0.5rem;
@@ -61,4 +88,22 @@
   --shadow-md: 0 4px 16px rgba(50, 46, 37, 0.08);
   --shadow-lg: 0 8px 24px rgba(50, 46, 37, 0.08);
   --shadow-xl: 0 12px 32px rgba(50, 46, 37, 0.10);
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom Utilities */
+.pagode-blur {
+  backdrop-filter: blur(12px);
+}
+
+.beer-shadow {
+  box-shadow: 0 8px 24px -4px rgba(50, 46, 37, 0.08);
+}
+
+.handwritten-style {
+  font-family: 'Brush Script MT', cursive;
 }
