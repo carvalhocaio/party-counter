@@ -39,17 +39,6 @@ export default function Home() {
 
             {/* Countdown Bento Grid */}
             <Countdown />
-
-            {/* Glassmorphism Chip */}
-            <div className="inline-flex items-center gap-3 bg-surface-bright/80 pagode-blur px-6 py-3 rounded-full border border-outline-variant/15 font-label font-semibold text-primary">
-              <span
-                className="material-symbols-outlined text-tertiary"
-                style={{ fontVariationSettings: "'FILL' 1" }}
-              >
-                music_note
-              </span>
-              Samba • Cerveja Gelada
-            </div>
           </div>
         </section>
 
